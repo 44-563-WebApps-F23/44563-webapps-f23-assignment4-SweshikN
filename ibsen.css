@@ -1,0 +1,66 @@
+.speech{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: black;
+}
+.direction{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    background-color: rgb(219, 184, 184);
+}
+
+.name:hover{
+    border: solid 2px rgb(175, 37, 240);
+    text-shadow: 3px 3px 3px rgb(21, 54, 239);
+}
+.direction:hover{
+    background-color: aquamarine;
+    color: red;
+}
+.KNUTBROVIK{
+    font-family: 'Lucida sans' , 'Lucida sans Regular' , 'Lucida Grande' , 'Lucida sans Unicode' , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+.KAIA{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(226, 132, 17);
+}
+.BROVIK{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 91, 218);
+
+}
+.RAGNAR{
+    font-family: sans-serif;
+    color: rgb(84, 41, 226);
+}
+
+
+table,th,td{
+    border: 1px solid;
+    color: brown;
+    text-align: left;
+    padding:0px;
+    margin:0px;
+}
+tr:nth-child(even){
+    background-color: rgb(21, 219, 203);
+}
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin: 1px;
+    padding: 2px;
+}
+ul.navbar-horizontal li{
+    float: left;
+    color: rgb(17, 16, 97);
+    background-color: aquamarine;
+}
+ul.navbar-horizontal a{
+    display: block;
+    padding: 3px;
+}
+ul.navbar-horizontal a:hover{
+    background-color: rgb(117, 17, 240);
+}
